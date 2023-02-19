@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+.Customcard {
+  position: absolute;
+width: 934px;
+height: 619px;
+left: 149px;
+top: 203px;
+
+background: #FFFFFF;
+border-radius: 8px;
+border-style: solid;
+border-color: #ECECEC;
+}
+.title {
+  position: absolute;
+width: 339px;
+height: 44px;
+left: 297px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+}
+.frame {
+  position: absolute;
+  width: 449px;
+  height: 94px;
+  left: 242px;
+  top: 151px;
+  
+  background: #0E042D;
+  border-radius: 8px;
+}
+.layout {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 40px;
+gap: 10px;
+
+position: absolute;
+width: 167px;
+height: 35px;
+left: 549px;
+top: 352px;
+}
+.secondBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 40px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 160px;
+  height: 35px;
+  left: 365px;
+  top: 352px;
+  
+}
+.firstBtn {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 40px;
+gap: 10px;
+
+position: absolute;
+width: 125px;
+height: 35px;
+left: 217px;
+top: 352px;
+}
+.text {
+  position: absolute;
+width: 153px;
+height: 34px;
+left: 148px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
